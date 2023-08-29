@@ -1,0 +1,59 @@
+name: VortechFactions
+version: '${project.version}'
+main: dev.authorises.vortechfactions.VortechFactions
+api-version: 1.8.8
+depend: [FactionsBridge, Factions]
+loadbefore:
+  - Essentials
+commands:
+  value:
+    description: Get the value of your held item.
+    usage: /value
+  sell:
+    description: Sell items for monetary value
+    usage: /sell <method>
+  shop:
+    description: Purchase items
+    usage: /shop
+  getitem:
+    description: Get an item
+    usage: /getitem <item_name>
+  getmask:
+    description: Get a mask
+    usage: /getmask <mask_name>
+  airdrop:
+    description: Manage the airdrop system
+    usage: /airdrop ?<manage command>
+  spawn:
+    description: Teleport to spawn
+    usage: /spawn
+  home:
+    description: Go to your home
+    usage: /home
+  sethome:
+    description: Set your home
+    usage: /sethome
+  echest:
+    description: Open your ender chest
+    usage: /echest
+    aliases:
+      - ec
+      - enderchest
+      - pv
+  factionsettings:
+    description: Edit your settings for factions
+    usage: /factionsettings
+    aliases:
+      - fs
+      - facsets
+  chat:
+    description: Change your chat mode with a GUI
+    usage: /chat
+    aliases:
+      - fchat
+      - fc
+      - c
+  test:
+    description: test
+    usage: /test
+    permission: test

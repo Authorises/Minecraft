@@ -1,0 +1,3 @@
+name: InstinctiaCore
+version: '${project.version}'
+main: dev.authorises.instinctiacore.InstinctiaCore

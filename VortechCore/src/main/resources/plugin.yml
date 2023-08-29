@@ -1,0 +1,13 @@
+name: VortechPanelCore
+version: '${project.version}'
+main: dev.authorises.vortechcore.VortechCore
+api-version: 1.19
+depend:
+  - LuckPerms
+commands:
+  play:
+    description: play
+    usage: /play
+  nuke:
+    description: nuke
+    usage: /nuke <player>

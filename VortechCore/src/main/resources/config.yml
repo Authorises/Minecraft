@@ -1,0 +1,6 @@
+# ServerInfo for Vortech Panel managed servers.
+serverUrl: http://localhost:2552/server
+serverType: undefined
+accessToken: undefined
+connectionIp: undefined
+connectionPort: undefined

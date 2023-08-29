@@ -1,0 +1,83 @@
+name: Cavelet
+version: '${project.version}'
+main: dev.authorises.cavelet.Cavelet
+api-version: 1.19
+load: POSTWORLD
+depend:
+  - NoteBlockAPI
+  - WorldGuard
+  - WorldEdit
+  - WildStacker
+commands:
+  chat:
+    usage: /chat
+    description: change chat settings
+  ftop:
+    usage: /ftop
+    description: leaderboard of factions
+  faction:
+    usage: /faction help
+    aliases:
+      - f
+    description: Manage faction system
+  warp:
+    usage: /warp <place>
+    description: Warp to specific places
+  skills:
+    usage: /skills
+    description: View your skills
+  balance:
+    usage: /balance
+    aliases:
+      - bal
+      - money
+      - wealth
+  npcgui:
+    usage: /npcgui
+    permission: npcgui
+  view:
+    usage: /view <player>
+  leaderboard:
+    usage: /leaderboard <type>
+  getbox:
+    usage: /getbox <box>
+    permission: getbox
+  spawncustommob:
+    usage: /spawncustommob <mob>
+    permission: spawncustommob
+  migrateolddata:
+    usage: /migrateolddata
+  apply:
+    usage: /apply
+  discord:
+    usage: /discord
+  iteminfo:
+    usage: /iteminfo
+    permission: iteminfo
+  item:
+    usage: /item
+    permission: item
+  caveletver:
+    usage: /caveletver
+    permission: caveletver
+  addcustomenchant:
+    usage: /addcustomenchant
+    permission: addcustomenchant
+  logintoprofile:
+    usage: /logintoprofile
+    permission: logintoprofile
+  deepmarket:
+    usage: /deepmarket
+    permission: deepmarket
+  event:
+    usage: /startevent
+    permission: startevent
+  enchantments:
+    usage: /enchantments
+    aliases:
+      - enchants
+      - ces
+      - ce
+  collect:
+    usage: /collect
+    description: collect
