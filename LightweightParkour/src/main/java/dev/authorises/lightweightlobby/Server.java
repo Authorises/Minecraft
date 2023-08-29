@@ -105,18 +105,18 @@ public class Server {
         System.out.println(args);
 
         if(args.length==1) {
-            VELOCITY_SECRET = "fGWj2dCzZUUh";
-            LISTEN_PORT = Integer.valueOf(args[0]);
-            LISTEN_HOST = "localhost";
-            CENTRALC_ENDPOINT = "localhost";
-            CENTRALC_TOKEN = "internal";
-            SERVER_TYPE = "pk";
-            PUBLIC_IP = "localhost";
-            PUBLIC_PORT = Integer.valueOf(args[0]);
-            TEMP_WORLD_DIR = "C:\\Users\\Autho\\Documents\\coding\\lightweight-parkour\\build\\libs\\worlds";
-            MINIO_ENDPOINT="http://cavelet.net:9020";
-            MINIO_ACCESS_KEY="iiGb81mHiTtjYd7p";
-            MINIO_SECRET_KEY="fxA8UnwjgUR2k1Z5RawmSAAjc9g3uKQn";
+            VELOCITY_SECRET = "";
+            LISTEN_PORT = ""
+            LISTEN_HOST = "";
+            CENTRALC_ENDPOINT = "";
+            CENTRALC_TOKEN = "";
+            SERVER_TYPE = "";
+            PUBLIC_IP = "";
+            PUBLIC_PORT = ""
+            TEMP_WORLD_DIR = "";
+            MINIO_ENDPOINT="";
+            MINIO_ACCESS_KEY="";
+            MINIO_SECRET_KEY="";
         }else{
             List.of(
                     "VELOCITY_SECRET",
